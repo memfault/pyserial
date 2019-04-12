@@ -37,6 +37,8 @@ else:
 
 protocol_handler_packages = [
     'serial.urlhandler',
+    'pyftdi.serialext.protocol_ftdi',
+    'pyftdi.serialext.protocol_unix',
 ]
 
 
